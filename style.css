@@ -4,6 +4,7 @@ body {
   font-size: .8em;
   padding-top: 90px;
   vertical-align: middle;
+  text-align:center;
 }
 
 .navbar {
@@ -13,21 +14,18 @@ body {
   border-bottom: solid;
   border-bottom-color: #ccc;
   width: 100%;
-  text-align: center;
 }
 
 #navbar-title {
   padding: 0px;
   font-size: 30px;
   color:black; 
-  text-align: center;
 }
 
 #navbar-subtitle {
   padding: 2px;
   font-size: 15px;
   color:black; 
-  text-align: center;
 }
 
 input {
