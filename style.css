@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(247, 202, 160);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: .8em;
+  padding-top: 90px;
+  vertical-align: middle;
+}
+
+.navbar {
+  background-color:rgb(218, 96, 47);  
+  color: #b6d7e2;  
+  padding-bottom: 0;
+  border-bottom: solid;
+  border-bottom-color: #ccc;
+  width: 100%;
+  text-align: center;
+}
+
+#navbar-title {
+  padding: 0px;
+  font-size: 30px;
+  color:black; 
+  text-align: center;
+}
+
+#navbar-subtitle {
+  padding: 2px;
+  font-size: 15px;
+  color:black; 
+  text-align: center;
+}
+
+input {
+  background: transparent;
+  border: none;
+  padding-left: 3px;
+}
+
+
+.col-md-1, .col-md-2, .col-md-9 {
+  padding: 0;
+}
+
+#plannerContainer {
+  background-color:rgb(236, 153, 105);  
+  margin-top: 20px;
+  margin-bottom: 80px;
+  padding: 40px;
+} 
+
+.plannerRow {
+  height: 50px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 1em;
+  line-height: 1.5;
+  border-radius: 15px;
+}
+
+.timeBox {
+  background-color: rgb(218, 96, 47);  
+  color: black;
+  height:100%;
+  width: 100%;
+  text-align: center;
+  border-radius: 15px 0px 0px 15px;
+  display: inline-block;
+  font-size: 1em;
+}
+
+.dailyPlan {
+  color: black;  
+  font-size: 12pt;
+  height:100%;
+  width: 100%;
+}
+
+.saveIcon {
+  background-color: rgb(218, 96, 47);
+  color: linen;
+  border-radius: 0px 15px 15px 0px;
+  font-size: 1.5em;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .plannerRow {
+    height: 100%;
+    border-radius: 10;
+    margin: 10px;
+  }
+  .saveIcon { border-radius: 0 0 15px 15px; }
+  .timeBox { border-radius: 15px 15px 0 0; }
+}
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+.wrapper
+{ 
+  padding: 20px;     
+} 
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+  }
+}
+
+.shadowPulse {
+  animation: shadow-pulse 1s infinite;
+}
+
